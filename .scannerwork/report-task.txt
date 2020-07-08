@@ -1,0 +1,6 @@
+projectKey=sonarClient
+serverUrl=http://localhost:9000
+serverVersion=7.9.3.33349
+dashboardUrl=http://localhost:9000/dashboard?id=sonarClient
+ceTaskId=AXMsw4JBHXXRe48D_AtH
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXMsw4JBHXXRe48D_AtH

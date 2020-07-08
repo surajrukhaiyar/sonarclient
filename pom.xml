@@ -5,6 +5,24 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>sonarClient</name>
   
+  
+  <properties>
+    <jdk.version>1.8</jdk.version>
+  </properties>
+  
+  <build>
+  	<plugins>
+	  	<plugin>
+	    	<groupId>org.apache.maven.plugins</groupId>
+		    <artifactId>maven-compiler-plugin</artifactId>
+		    <version>3.2</version>
+		    <configuration>
+		        <source>${jdk.version}</source>
+		        <target>${jdk.version}</target>
+		    </configuration>
+		</plugin>
+  	</plugins>
+  </build>
   <dependencies>
 		<dependency>
 		    <groupId>org.codehaus.sonar</groupId>
